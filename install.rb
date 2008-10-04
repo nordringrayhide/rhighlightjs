@@ -1,0 +1,3 @@
+# Install hook code hereputs "Installing rhighlightjs ...
+`rake rhighlightjs:install`
+puts 'Done.'

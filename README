@@ -1,0 +1,26 @@
+Rhighlightjs
+============
+
+Introduction goes here.
+
+Installation
+
+rake rhighlightjs:install
+
+Example
+=======
+
+In view:
+
+<%= highlighter 'dark', :languages => "'html','css','javascript','ruby'" %>
+
+<pre><code class="ruby">
+class Person
+  def say
+    puts "hello world"
+  end
+end
+</code></pre>
+
+
+Copyright (c) 2008 Roman V. Babenko aka romb, released under the MIT license
