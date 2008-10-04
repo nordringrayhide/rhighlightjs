@@ -8,6 +8,12 @@ Author: Ivan Salagaev
 
 Installation
 
+./script/plugin install git://github.com/rubyhammer/rhighlightjs.git
+
+OR
+
+git clone git://github.com/rubyhammer/rhighlightjs.git ./vendor/plugins/
+
 rake rhighlightjs:install
 
 Example
