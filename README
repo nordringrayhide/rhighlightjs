@@ -8,11 +8,11 @@ Author: Ivan Salagaev
 
 Installation
 
-./script/plugin install git://github.com/rubyhammer/rhighlightjs.git
+./script/plugin install git://github.com/romanvbabenko/rhighlightjs.git
 
 OR
 
-git clone git://github.com/rubyhammer/rhighlightjs.git ./vendor/plugins/
+git clone git://github.com/romanvbabenko/rhighlightjs.git ./vendor/plugins/
 
 rake rhighlightjs:install
 
@@ -32,6 +32,6 @@ end
 </code></pre>
 
 
-Copyright (c) 2008 Roman V. Babenko aka romb, released under the MIT license
+Copyright (c) 2008 Roman V. Babenko, released under the MIT license
 
-Blog: http://rubyhammer.com
+Blog: http://romanvbabenko.com
