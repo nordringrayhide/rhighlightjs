@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{rhighlightjs}
-  s.version = "0.0.1"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["romanvbabenko"]
@@ -14,7 +14,6 @@ Gem::Specification.new do |s|
   s.email = %q{romanvbabenko@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
-     "README",
      "README.rdoc"
   ]
   s.files = [
@@ -22,7 +21,6 @@ Gem::Specification.new do |s|
      ".gitignore",
      "LICENSE",
      "MIT-LICENSE",
-     "README",
      "README.rdoc",
      "Rakefile",
      "VERSION",
@@ -56,6 +54,7 @@ Gem::Specification.new do |s|
      "init.rb",
      "install.rb",
      "lib/rhighlightjs.rb",
+     "rhighlightjs.gemspec",
      "tasks/rhighlightjs_tasks.rake",
      "test/rhighlightjs_test.rb",
      "test/test_helper.rb",
