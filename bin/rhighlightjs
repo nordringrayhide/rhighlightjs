@@ -1,0 +1,6 @@
+#!/bin/env ruby
+
+FileUtils.cp_r Dir[File.join(File.dirname(__FILE__), '../assets/**')],
+  File.join( FileUtils.getwd, 'public'),
+  :verbose => true
+
