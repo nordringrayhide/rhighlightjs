@@ -2,10 +2,9 @@
 
 It is the helper for higlight.js
 
-http://softwaremaniacs.org/soft/highlight/
-Author: Ivan Salagaev
+{http://softwaremaniacs.org/soft/highlight}[http://softwaremaniacs.org/soft/highlight] by Ivan Salagaev
 
-Installation
+== Installation
 
   ./script/plugin install git://github.com/romanvbabenko/rhighlightjs.git
 
@@ -15,8 +14,8 @@ OR
 
   rake rhighlightjs:install
 
-Example
-=======
+== Example
+
 
 In view:
 
