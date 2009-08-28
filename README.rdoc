@@ -1,18 +1,36 @@
-= rhighlightjs
+= Rhighlightjs
 
-Description goes here.
+It is the helper for higlight.js
 
-== Note on Patches/Pull Requests
- 
-* Fork the project.
-* Make your feature addition or bug fix.
-* Add tests for it. This is important so I don't break it in a
-  future version unintentionally.
-* Commit, do not mess with rakefile, version, or history.
-  (if you want to have your own version, that is fine but
-   bump version in a commit by itself I can ignore when I pull)
-* Send me a pull request. Bonus points for topic branches.
+http://softwaremaniacs.org/soft/highlight/
+Author: Ivan Salagaev
+
+Installation
+
+  ./script/plugin install git://github.com/romanvbabenko/rhighlightjs.git
+
+OR
+
+  git clone git://github.com/romanvbabenko/rhighlightjs.git ./vendor/plugins/
+
+  rake rhighlightjs:install
+
+Example
+=======
+
+In view:
+
+  <%= highlighter 'dark', :languages => "'html','css','javascript','ruby'" %>
+
+  class Person
+    def say
+      puts "hello world"
+    end
+  end
+
 
 == Copyright
 
-Copyright (c) 2009 romanvbabenko. See LICENSE for details.
+Blog: http://romanvbabenko.com
+
+Copyright (c) 2008 Roman V. Babenko, released under the MIT license

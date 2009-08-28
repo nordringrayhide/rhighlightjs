@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "rhighlightjs"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{It is the helper for higlight.js}
+    gem.description = %Q{Javascript syntax highlighter by Ivan Salagaev}
     gem.email = "romanvbabenko@gmail.com"
     gem.homepage = "http://github.com/romanvbabenko/rhighlightjs"
     gem.authors = ["romanvbabenko"]
