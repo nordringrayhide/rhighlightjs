@@ -4,7 +4,7 @@ It is the helper for {higlight.js}[http://softwaremaniacs.org/soft/highlight] by
 
 == Installation
 
-  gem install romanvbabenko-rhighlightjs, :source => http://gems.github.com
+  gem install romanvbabenko-rhighlightjs
 
 config/environment.rb
 
